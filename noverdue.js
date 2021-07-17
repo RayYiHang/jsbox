@@ -27,7 +27,7 @@ obj = {
          "is_sandbox": false,
          "original_purchase_date": "2021-07-15T14:59:36Z",
          "ownership_type": "PURCHASED",
-         "period_type": "trial",
+         "period_type": "normal",
          "purchase_date": "2021-07-15T14:59:35Z",
          "store": "app_store",
          "unsubscribe_detected_at": null
