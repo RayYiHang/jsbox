@@ -38,4 +38,4 @@ const obj = {
    },
    "code" : 200
  };
-$done({body: obj});
+$done({body: JSON.stringify(obj)});
