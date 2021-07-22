@@ -1,4 +1,4 @@
-$response.statusCode = 200;
+/* $response.statusCode =200 */
 let obj = JSON.parse($response.body);
 obj.errorCode = 0
 obj.ok = true
