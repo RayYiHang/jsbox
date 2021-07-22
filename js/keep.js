@@ -1,6 +1,6 @@
 /* $response.statusCode =200 */
-var obj = JSON.parse($response.body);
-obj.errorCode = 0
-obj.ok = true
-obj.text = ""
+let obj = JSON.parse($response.body);
+obj.data["errorCode"] = 0
+obj.data["ok"] = true
+obj.data.text = ""
 $done({body:JSON.stringify(obj)});
