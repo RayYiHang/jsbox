@@ -18,6 +18,6 @@ let obj = {
      "latestPurchaseDateMs": 1627048250000,
      "originalPurchaseDateMs": 1627048250000
    }],
-   "syncDateMs": Date().now()
+   "syncDateMs": 1627048274007
  };
 $done({body:JSON.stringify(obj)});
