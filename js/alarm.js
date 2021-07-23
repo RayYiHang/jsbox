@@ -20,5 +20,4 @@ let obj = {
    }],
    "syncDateMs": Date().now()
  };
-
 $done({body:JSON.stringify(obj)});
