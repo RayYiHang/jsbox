@@ -32,8 +32,8 @@ $task.fetch(myRequest).then(response => {
       return item["enable"]
     })
     if (result) {
-    $notify("HPV检测", "✅有苗", response.body)} else {
-    $notify("HPV检测", "❌没有苗", response.body)};
+    $notify("HPV检测", "✅有苗")} else {
+    $notify("HPV检测", "❌没有苗")};
     $done()
 }, reason => {
     // reason.error
