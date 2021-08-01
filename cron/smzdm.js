@@ -17,7 +17,7 @@ const headers = {
 'Accept-Language' : `zh-Hans-CN;q=1, zh-Hant-HK;q=0.9, zh-Hant-CN;q=0.8, en-CN;q=0.7, co-CN;q=0.6`,
 'Accept-Encoding' : `gzip, deflate, br`
 };
-const body = `f=iphone&sign=7CC46B595DFF9E3E8786A8EE730563B6&time=${Math.floor(Date.now()/1000)}&v=10.1.5&weixin=1`;
+const body = `f=iphone&sign=7CC46B595DFF9E3E8786A8EE730563B6&time=1627831215&v=10.1.5&weixin=1`;
 
 const myRequest = {
     url: url,
