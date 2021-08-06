@@ -32,7 +32,7 @@ $task.fetch(myRequest).then(response => {
     console.log("云闪付签到💰：" + response.statusCode + "\n\n" + response.body);
     let obj = JSON.parse(response.body);
     if (obj["coins"] != 0) {
-       $notify("云闪付","✅签到成功\n🪙" + obj["coins"])} else {
+       $notify("云闪付",`✅签到成功，获得${obj["coins"]}硬币`)} else {
        $notify("云闪付", "❌签到失败")};
     $done();
 }, reason => {
