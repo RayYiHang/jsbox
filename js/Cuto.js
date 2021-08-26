@@ -18,5 +18,5 @@ var entitlement = {
 "expires_date" : "2029-08-11T12:33:17Z"
 };
 obj["subscriber"]["subscriptions"]["com.potatsolab.cuto.pro"] = subscriber;
-obj["subscriber"]["entitlements"]["pro"] = entitlement;
+obj["subscriber"]["entitlements"]["com.potatsolab.cuto.pro"] = entitlement;
 $done({body:JSON.stringify(obj)});
