@@ -7,7 +7,7 @@ var subscriber = {
 "expires_date" : "2029-08-11T12:33:17Z",
 "grace_period_expires_date" : null,
 "unsubscribe_detected_at" : "2021-07-15T15:08:38Z",
-"original_purchase_date" : "2021-07-15T14:59:36Z",
+"original_purchase_date" : "2016-04-10T05:28:18Z",
 "purchase_date" : "2021-07-15T14:59:35Z",
 "store" : "app_store"
 };
@@ -18,5 +18,5 @@ var entitlement = {
 "expires_date" : "2029-08-11T12:33:17Z"
 };
 obj["subscriber"]["subscriptions"]["com.potatsolab.cuto.pro"] = subscriber;
-obj["subscriber"]["entitlements"]["com.potatsolab.cuto.pro"] = entitlement;
+obj["subscriber"]["entitlements"]["pro"] = entitlement;
 $done({body:JSON.stringify(obj)});
