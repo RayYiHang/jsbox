@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 var subscriber = {
 "is_sandbox" : false,
-"ownership_type" : "PURCHASED",
+"ownership_type" : "PURCHASE",
 "billing_issues_detected_at" : null,
 "period_type" : "purchase",
 "grace_period_expires_date" : null,
