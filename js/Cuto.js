@@ -1,21 +1,17 @@
 var obj = JSON.parse($response.body);
-var subscriber = {
+var subscriber = [{
+"id" : "4ec05ff042",
 "is_sandbox" : false,
-"ownership_type" : "PURCHASED",
-"billing_issues_detected_at" : null,
-"period_type" : "purchased",
-"expires_date" : "2029-08-11T12:33:17Z",
-"grace_period_expires_date" : null,
-"original_purchase_date" : "2016-04-10T05:28:18Z",
 "purchase_date" : "2021-07-15T14:59:35Z",
+"original_purchase_date" : "2021-07-15T14:59:35Z",
 "store" : "app_store"
-};
+}];
 var entitlement = {
 "grace_period_expires_date" : null,
 "purchase_date" : "2021-07-15T14:59:35Z",
 "product_identifier" : "com.potatsolab.cuto.pro",
-"expires_date" : "2029-08-11T12:33:17Z"
+"expires_date" : null
 };
-obj["subscriber"]["subscriptions"]["com.potatsolab.cuto.pro"] = subscriber;
-obj["subscriber"]["entitlements"]["pro"] = entitlement;
+obj["subscriber"]["non_subscriptions"]["com.potatsolab.cuto.pro"] = subscriber;
+obj["subscriber"]["entitlements"]["cutopro"] = entitlement;
 $done({body:JSON.stringify(obj)});
