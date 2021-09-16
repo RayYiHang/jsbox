@@ -9,7 +9,7 @@ var inapp = [{
         "is_trial_period" : "false",
         "original_transaction_id" : "300000924722495",
         "purchase_date" : "2021-09-14 15:05:33 Etc/GMT",
-        "product_id" : "mmcn_01y",
+        "product_id" : "com.kobaltlab.HashPhotos",
         "original_purchase_date_pst" : "2021-09-14 08:05:33 America/Los_Angeles",
         "in_app_ownership_type" : "PURCHASED",
         "original_purchase_date_ms" : "1631631933000",
