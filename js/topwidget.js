@@ -19,4 +19,5 @@ var inapp = [{
         "original_purchase_date" : "2021-09-14 15:05:33 Etc/GMT"
       }];
 obj["receipt"]["in_app"] = inapp;
+obj["latest_receipt_info"] = inapp;
 $done({body:JSON.stringify(obj)});
