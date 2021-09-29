@@ -13,5 +13,5 @@ var entitlement = {
 "expires_date" : null
 };
 obj["subscriber"]["non_subscriptions"]["grow_lifetime"] = subscriber;
-obj["subscriber"]["entitlements"]["pro"] = entitlement;
+obj["subscriber"]["entitlements"]["premium"] = entitlement;
 $done({body:JSON.stringify(obj)});
