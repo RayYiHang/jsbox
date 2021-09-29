@@ -22,5 +22,5 @@ var entitlement = {
        }
 };
 obj["subscriber"]["subscriptions"]["grow_lifetime"] = subscriber;
-obj["subscriber"]["entitlements"]["pro"] = entitlement;
+obj["subscriber"]["entitlements"]["premium"] = entitlement;
 $done({body:JSON.stringify(obj)});
