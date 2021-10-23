@@ -4,7 +4,8 @@
 // @match        *://www.youtube.com/watch?v=*
 // @match        *://www.youtube.com
 // @match        *://www.youtube.com/*
-// @author       wlpha
+// @match        *://m.youtube.com/*
+// @kauthor       wlpha
 // @version      0.2.3
 // @run-at       document-start
 // @description  油管自动跳广告,机翻中英双语字幕，视频下载，srt字幕下载, 不常看greasyfork，有问题请发邮件：vsq_kuangqi@qq.com
