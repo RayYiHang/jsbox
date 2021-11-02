@@ -1,11 +1,3 @@
 let obj = JSON.parse($response.body);
-obj["data"]["user"] = {
-        "isview":true,
-        "isdigg":true,
-        "isNewsStand":2,
-        "islogin":true,
-        "expire_time":"2030-05-05",
-        "isfav":true,
-        "member_type":5
-};
+obj["data"]["user"] = {"islogin":true,"isview":true,"isNewsStand":2,"member_type":5,"expire_time":"2030-05-05","isdigg":true,"isfav":true};
 $done({body:JSON.stringify(obj)});
