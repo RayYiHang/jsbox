@@ -1,3 +1,3 @@
 let obj = JSON.parse($response.body);
-obj["ACL"]["*"]["write"] = true;
+obj["rolesArray"][0] = "All Access";
 $done({body:JSON.stringify(obj)});
