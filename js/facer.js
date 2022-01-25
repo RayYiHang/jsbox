@@ -1,3 +1,9 @@
-let modifiedStatus = 'HTTP/1.1 200 OK';
+let myStatus = 'HTTP/1.1 200 OK';
 let obj = {"result":{"isActive":true,"platform":"apple"}}
-$done({body:JSON.stringify(obj), status:modifiedStatus});
+
+const myResponse = {
+    status: myStatus,
+    body: obj
+};
+
+$done(myResponse);
