@@ -1,3 +1,3 @@
-let obj = $response.body;
+let obj = JSON.parse($response.body);
 obj["ACL"]["*"]["write"] = true;
-$done({body: obj});
+$done({body:JSON.stringify(obj)});
