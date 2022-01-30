@@ -12,6 +12,6 @@ var entitlement = {
 "product_identifier" : "com.fitnessai.annual_129.99_7",
 "expires_date" : null
 };
-obj["subscriber"]["non_subscriptions"]["com.onmyway133.PastePal.pro"] = subscriber;
+obj["subscriber"]["non_subscriptions"]["com.fitnessai.annual_129.99_7"] = subscriber;
 obj["subscriber"]["entitlements"]["pro"] = entitlement;
 $done({body:JSON.stringify(obj)});
