@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 var subscriber = [{
-         "is_sandbox":false,
+"is_sandbox":false,
          "ownership_type":"PURCHASED",
          "billing_issues_detected_at":null,
          "period_type":"purchase",
@@ -15,7 +15,7 @@ var entitlement = {
 "grace_period_expires_date" : null,
 "purchase_date" : "2021-07-15T14:59:35Z",
 "product_identifier" : "com.kevinreutter.Sagittarius.PremiumLifetime",
-"expires_date" : "2029-08-11T12:33:17Z"
+"expires_date": "2029-08-11T12:33:17Z"
 };
 obj["subscriber"]["subscriptions"]["com.kevinreutter.Sagittarius.PremiumLifetime"] = subscriber;
 obj["subscriber"]["entitlements"]["pro"] = entitlement;
