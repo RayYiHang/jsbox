@@ -13,5 +13,5 @@ var entitlement = {
 "expires_date" : "2099-07-15T14:59:35Z"
 };
 obj["subscriber"]["subscriptions"]["com.kevinreutter.Sagittarius.PremiumLifetime"] = subscriber;
-obj["subscriber"]["entitlements"]["pro"] = entitlement;
+obj["subscriber"]["entitlements"]["premium"] = entitlement;
 $done({body:JSON.stringify(obj)});
