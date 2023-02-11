@@ -5,5 +5,5 @@ obj["data"]["home"]["elements"]["edges"].forEach(function(obj) {
     resultData.push(obj)
   }
 });
-obj["data"] = resultData;
+obj["data"]["home"]["elements"]["edges"] = resultData;
 $done({body:JSON.stringify(obj)});
