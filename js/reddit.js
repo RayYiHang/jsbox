@@ -7,5 +7,6 @@ for( var i = 0; i < obj.length-1; i++){
    }
 }
 res["data"]["home"]["elements"]["edges"] = obj;
-}
 $done({body:JSON.stringify(res)});
+}
+$done()
