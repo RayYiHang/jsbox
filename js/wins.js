@@ -1,4 +1,4 @@
-var body = $response.body.replace(/.*/, '{
+var body = $response.body.replace(/\{.*}\/, '{
   "success": true,
   "response": {
     "invoice_id": 1,
