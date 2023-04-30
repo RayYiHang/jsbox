@@ -1,4 +1,4 @@
-var body = $response.body.replace(/\{.*}\/, '{
+var body = $response.body.replace(/.*?/, '{
   "success": true,
   "response": {
     "invoice_id": 1,
@@ -9,5 +9,5 @@ var body = $response.body.replace(/\{.*}\/, '{
     "receipt_url": "https://my.paddle.com/receipt/1-1/3-chre8a53a2724c6-42781cb91a",
     "status": "success"
   }
-}')
+}');
 $done({ body })
