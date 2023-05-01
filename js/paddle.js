@@ -1,7 +1,8 @@
-let str = JSON.stringify($request.body);
-console.log(str);
+var string = $request.body;
+
+console.log(typeof string);
 const regex = /product_id=(\d{6})/g;
-const matches = str.match(regex);
+const matches = string.match(regex);
 
 console.log(matches); // ["123abc", "456def", "789ghi"]
 const obj = {
