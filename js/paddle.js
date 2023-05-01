@@ -1,4 +1,4 @@
-const requestBody = $request.headers;
+const requestBody = $request;
 console.log(typeof requestBody)
 console.log(requestBody)
 
