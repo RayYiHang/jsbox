@@ -1,6 +1,9 @@
 const requestBody = $request.body;
-const params = {};
+console.log(typeof requestBody)
+console.log(requestBody)
 
+
+const params = {};
 requestBody.split('&').forEach(pair => {
   const [key, value] = pair.split('=');
   params[decodeURIComponent(key)] = decodeURIComponent(value);
