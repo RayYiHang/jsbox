@@ -1,12 +1,16 @@
-var string = $request.body;
 const requestBody = $request.body;
-const params = new URLSearchParams(requestBody);
-console.log(params.get('product_id')); 
+const params = {};
+
+requestBody.split('&').forEach(pair => {
+  const [key, value] = pair.split('=');
+  params[decodeURIComponent(key)] = decodeURIComponent(value);
+});
+console.log(params.product_id)); 
 
 const obj = {
     "success": true,
     "response": {
-        "product_id": params.get('product_id'),
+        "product_id": params.product_id,
         "activation_id": "admin",
         "type": "personal",
         "expires": 1,
