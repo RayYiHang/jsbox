@@ -5,7 +5,7 @@ requestBody.split('&').forEach(pair => {
   const [key, value] = pair.split('=');
   params[decodeURIComponent(key)] = decodeURIComponent(value);
 });
-console.log(params.product_id)); 
+console.log(params.product_id); 
 
 const obj = {
     "success": true,
