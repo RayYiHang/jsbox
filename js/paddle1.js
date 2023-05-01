@@ -1,4 +1,4 @@
-const requestBody = decodeURIComponent($request.body);
+const requestBody = $request.body;
 console.log(requestBody); 
 const params = {};
 requestBody.split('&').forEach(pair => {
