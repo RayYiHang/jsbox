@@ -1,14 +1,12 @@
 var string = $request.body;
+const requestBody = $request.body;
+const params = new URLSearchParams(requestBody);
+console.log(params.get('product_id')); 
 
-console.log(typeof string);
-const regex = /product_id=(\d{6})/g;
-const matches = string.match(regex);
-
-console.log(matches); // ["123abc", "456def", "789ghi"]
 const obj = {
     "success": true,
     "response": {
-        "product_id": matches[1],
+        "product_id": params.get('product_id'),
         "activation_id": "admin",
         "type": "personal",
         "expires": 1,
