@@ -1,4 +1,4 @@
-let str = $request.body;
+let str = JSON.stringify($request.body);
 console.log(str);
 const regex = /product_id=(\d{6})/g;
 const matches = str.match(regex);
