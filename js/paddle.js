@@ -1,4 +1,5 @@
 const requestBody = $request.body;
+console.log($request); 
 const params = {};
 requestBody.split('&').forEach(pair => {
   const [key, value] = pair.split('=');
