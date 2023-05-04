@@ -2,7 +2,7 @@
 #!desc=Paddle通杀脚本，仅支持电脑
 
 [MITM]
-hostname = %APPEND% v3.paddleapi.com
+hostname = %INSERT% v3.paddleapi.com
 
 [Script]
 http-response ^https?:\/\/v3\.paddleapi\.com\/3\.2\/license\/(activate|verify) requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/paddle.js
