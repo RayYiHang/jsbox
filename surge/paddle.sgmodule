@@ -5,5 +5,5 @@
 hostname = %INSERT% v3.paddleapi.com
 
 [Script]
-http-request ^https?:\/\/v3\.paddleapi\.com\/3\.2\/license\/activate requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/paddleReq.js
-http-response ^https?:\/\/v3\.paddleapi\.com\/3\.2\/license\/(activate|verify) requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/paddle.js
+paddleReq = type=http-request,pattern=^https?:\/\/v3\.paddleapi\.com\/3\.2\/license\/activate,requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/paddleReq.js
+paddleRes = type=http-response,pattern=^https?:\/\/v3\.paddleapi\.com\/3\.2\/license\/(activate|verify),requires-body=1,script-path=https://raw.githubusercontent.com/RayYiHang/jsbox/main/js/paddle.js
