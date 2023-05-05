@@ -1,4 +1,4 @@
-const obj = {
+var obj = {
     "success": true,
     "response": {
         "product_id": $persistentStore.read($request.id),
