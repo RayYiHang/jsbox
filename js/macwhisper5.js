@@ -8,4 +8,4 @@ var obj = {
         "expiry_date": 1999999999999
     }
 }
-$done({body:JSON.stringify(obj), statusCode: 200});
+$done({body:JSON.stringify(obj)});
