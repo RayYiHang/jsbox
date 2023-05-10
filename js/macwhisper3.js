@@ -1,6 +1,6 @@
 var obj = {
     "success": true,
-    "msg": {
+    "response": {
         "product_id": "gu82N0k4M8jl1waz-ttTAA%3D%3D",
         "activation_id": "admin",
         "type": "personal",
