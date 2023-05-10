@@ -1,4 +1,3 @@
-console.log($response)
 var obj = {
     "success": true,
     "msg": {
@@ -9,4 +8,4 @@ var obj = {
         "expiry_date": 1999999999999
     }
 }
-$done({body:JSON.stringify(obj)});
+$done({body:JSON.stringify(obj), statusCode: 200});
