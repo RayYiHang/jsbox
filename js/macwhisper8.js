@@ -1,6 +1,6 @@
 var obj = {
     "success": true,
-    "status": "valid",
+    "status": true,
     "name": "John Doe",
     "expiration_date": "2029-12-31",
     "features": [
