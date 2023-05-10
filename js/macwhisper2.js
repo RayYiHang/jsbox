@@ -1,3 +1,4 @@
+console.log($response)
 var obj = {
     "success": true,
     "msg": {
